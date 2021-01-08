@@ -1,0 +1,30 @@
+textarea {
+	background-color: #7cba95;
+	border: none;
+	border-radius: 5px;
+	width: 300px;
+	height: 40px;
+	padding: 0;
+	font-size: 15px;
+	line-height: 40px;
+	overflow: hidden;
+}
+
+textarea::placeholder {
+	position: relative;
+	left: 40px;
+	color: white;
+}
+
+input[type="submit"] {
+	border: none;
+	background-color: #7cba95;
+	width: 30px;
+	height: 30px;
+	font-size: 30px;
+	line-height: 30px;
+	color: white;
+	position: relative;
+	top: -55px;
+	left: 5px;
+}
